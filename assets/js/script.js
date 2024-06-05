@@ -21,4 +21,4 @@ var generateJokes = async () => {
 };
 // calling a function
 btn.addEventListener("click", generateJokes);
-//generateJokes();
+generateJokes();
