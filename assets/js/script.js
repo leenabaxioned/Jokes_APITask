@@ -19,6 +19,7 @@ var generateJokes = async () => {
     console.log(`The error is ${error}`);
   }
 };
+generateJokes();
 // calling a function
 btn.addEventListener("click", generateJokes);
-generateJokes();
+
