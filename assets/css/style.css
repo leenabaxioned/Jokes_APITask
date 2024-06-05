@@ -82,6 +82,13 @@ sub { bottom: -.25em; }
 
 /*for all*/
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #686de0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -113,7 +120,43 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.main {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
 
+.challenge { padding: 50px; }
+h1,
+p { padding-bottom: 40px; }
+
+h1 {
+  color: #999999;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  color: #000;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+#get {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #9f68e0;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#get:active {
+  background-color: #9759dd;
+  box-shadow: 0 1px #838383;
+  transform: translateY(1px);
+}
 /*=================================
   main styling ends here
 =================================*/
